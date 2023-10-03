@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    border-bottom: solid;
+    display: flex;
+}
+
+#header_h1{
+    margin-left: 1%;
+}
+
+#navbar_items{
+    list-style: none;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+.items_in_navbar{
+    margin-left: 13%;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.main_ansok{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+section{
+    width: 100%;
+    height: 600px;
+    border-bottom: solid;
+}
+
+#rubrik, #under_rubrik{
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#rubrik{
+    font-size: xx-large;
+}
+
+#under_rubrik{
+    font-weight: normal;
+}
+
+.ansok_btn{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 48%;
+    margin-top: 3%;
+}
+
+#img_section{
+    display: flex;
+}
+
+#filler_img{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+#img_div{
+    width: 40%;
+    margin: auto;
+}
+
+#section3_big_text{
+    font-size: xx-large;
+    text-align: center;
+}
+
+#div_holder{
+    display: flex;
+}
+
+.div_group{
+    padding: 10%;
+    margin: auto;
+    margin-top: 3%;
+    border: solid;
+    font-size: large;
+    font-weight: bold;
+}
+
+#section4{
+    height: 300px;
+}
+
+#section4_big_text{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#section4_smaller_text{
+    text-align: center;
+}
+
+.sista_ansok{
+    padding: 30px;
+    font-size: larger;
+    margin-left: 46.5%;
+}
+
+footer{
+    height: 300px;
+    display: flex;
+}
+
+.footer_list{
+    list-style: none;
+    font-size: large;
+    padding: 5px;
+}
+
+#footer_div{
+    margin-left: 20%;
+}
+
+#footer_big_text{
+    margin-left: 50%;
+    margin-top: 10%;
+}
